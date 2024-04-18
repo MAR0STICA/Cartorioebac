@@ -126,7 +126,8 @@ int main() // Função principal que executa o programa
 	    printf("\t1 - Registrar nomes\n"); // Opção de registro de usuários
 	    printf("\t2 - Consultar nomes\n"); // Opção de consultar de usuários
 	    printf("\t3 - Deletar nomes\n\n"); // Opção de deletação de usuário
-	    printf("Opção: "); // Solicita ao usuário que digite a opção desejada
+	    printf("\t4 - Sair do sistema\n\n");
+		printf("Opção: "); // Solicita ao usuário que digite a opção desejada
 
         scanf("%d", &opcao); // Lê a opção escolhida pelo usuário e armazena na variável opcao
     
@@ -147,7 +148,7 @@ int main() // Função principal que executa o programa
 		    break; // Sai da estrutura de decisão
         
             case 4: 
-            printf("Obrigado por utilizar o sistema");
+            printf("Obrigado por utilizar o sistema!\n");
             return 0;
             break;
         
